@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Playfair+Display&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+#quoteBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/flagged/photo-1552863474-9e7df7c5fc47");
+  background-size: cover;
+  background-position: center bottom;
+  padding: 20vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Homemade Apple", cursive;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
