@@ -1,9 +1,97 @@
-//CSS
+* {
+  font-family: "Baloo 2"
+
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  margin-top: 0rem;
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(28, 28, 28);
+}
+
 td {
+  background-color: aliceblue;
   border: solid;
-  height: 100px;
-  width: 100px;
+  height: 108px;
+  width: 114px;
   text-align: center;
   font-size: 50px;
-  font-family: "Baloo 2"
+  border-radius: 12px;
+
+}
+
+table {
+  background-color: rgb(28, 28, 28);
+  border-radius: 12px;
+  padding: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+#titleandcontent {
+  margin-right: 2rem;
+}
+
+#content {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+iframe {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#counter {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: aliceblue;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+button {
+  margin: 10px;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: rgb(191, 64, 41);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border: solid 3px tomato;
+  font-size: larger;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+button:hover {
+  background-color: tomato;
+  border: solid 3px rgb(191, 64, 41);
+  color: white;
+}
+
+#whosTurn {
+  border: solid rgb(28, 28, 28) 5px;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+#buttonGroup {
+  display: flex;
+  flex-direction: column;
 }
