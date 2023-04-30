@@ -19,6 +19,7 @@ $(document).ready(function(){
   let cella6 = $("#a6").text();
   let cella7 = $("#a7").text();
 
+//box b
   let cellb1 = $("#b1").text();
   let cellb2 = $("#b2").text();
   let cellb3 = $("#b3").text();
